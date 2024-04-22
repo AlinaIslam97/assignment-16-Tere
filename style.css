@@ -1,0 +1,662 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 17px !important;
+}
+
+h1 {
+  font-size: 55px !important;
+  font-weight: 800 !important;
+}
+
+p {
+  font-size: 25px !important;
+  line-height: 30px;
+  color: rgb(146, 146, 146) !important;
+}
+
+.buttons {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 25px;
+}
+
+.buttons3 {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 25px;
+}
+
+.btn-div {
+  gap: 7%;
+}
+
+.btn-img {
+  width: 50px;
+}
+
+.form-div {
+  background-color: #75BF7A;
+  border-radius: 15px;
+}
+
+input {
+  font-size: 20px !important;
+  color: #dddbdb !important;
+}
+
+h6 {
+  color: white;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+span {
+  color: #75BF7A;
+}
+
+.p2 {
+  width: 30%;
+}
+
+.circle {
+  background-color: #75BF7A;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.circle-img {
+  width: 70px;
+}
+
+.custom-div {
+  align-items: end;
+  text-align: end;
+}
+
+.mbil-screen {
+  width: 240px;
+}
+
+.numbers {
+  font-size: 80px;
+}
+
+.custom-card {
+  border: none !important;
+}
+
+.custom-card2 {
+  border: none !important;
+  margin-left: 8%;
+}
+
+.foot-hd {
+  font-weight: 600 !important;
+}
+
+.foot-para {
+  font-size: 15px !important;
+}
+
+.foot-link {
+  padding-bottom: 3%;
+  list-style: none;
+  color: #929292;
+  font-size: 15px !important;
+  cursor: pointer;
+}
+
+.buttons2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+.btn-img2 {
+  width: 40px;
+}
+
+.footer-p {
+  color: #75BF7A !important;
+  font-size: 15px !important;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width:400px) and (min-width:290px) {
+
+  .logo-img1 {
+    width: 110px;
+  }
+
+  h1 {
+    font-size: 38px !important;
+    font-weight: 800 !important;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px !important;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .buttons {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .buttons3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .btn-div {
+    gap: 7%;
+    flex-direction: column;
+  }
+
+  .btn-img {
+    width: 40px;
+  }
+
+  input {
+    font-size: 15px !important;
+    color: #dddbdb !important;
+  }
+
+  #form-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .p2 {
+    width: 100%;
+    margin-bottom: 8% !important;
+  }
+
+  .circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mbil-screen {
+    width: 200px;
+  }
+
+  #circle-div {
+    margin-top: 30%;
+  }
+
+  .custom-div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .circle-img {
+    width: 75px;
+  }
+
+  .custom-div2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .numbers {
+    font-size: 60px;
+  }
+
+  .custom-card2 {
+    margin-left: 0%;
+  }
+
+  .foot-hd {
+    text-align: center;
+  }
+
+  .foot-link {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:576px) and (min-width:401px) {
+
+  .logo-img1 {
+    width: 110px;
+  }
+
+  h1 {
+    font-size: 38px !important;
+    font-weight: 800 !important;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px !important;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .buttons {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .buttons3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .btn-div {
+    gap: 7%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-img {
+    width: 40px;
+  }
+
+  input {
+    font-size: 15px !important;
+    color: #dddbdb !important;
+  }
+
+  #form-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .p2 {
+    width: 100%;
+    margin-bottom: 8% !important;
+  }
+
+  .circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mbil-screen {
+    width: 200px;
+  }
+
+  #circle-div {
+    margin-top: 30%;
+  }
+
+  .custom-div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .circle-img {
+    width: 75px;
+  }
+
+  .custom-div2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .numbers {
+    font-size: 60px;
+  }
+
+  .custom-card2 {
+    margin-left: 0%;
+  }
+
+  .foot-hd {
+    text-align: center;
+  }
+
+  .foot-link {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:767px) and (min-width:577px) {
+
+  .logo-img1 {
+    width: 110px;
+  }
+
+  h1 {
+    font-size: 38px !important;
+    font-weight: 800 !important;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px !important;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .buttons {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .buttons3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .btn-div {
+    gap: 7%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-img {
+    width: 40px;
+  }
+
+  input {
+    font-size: 15px !important;
+    color: #dddbdb !important;
+  }
+
+  #form-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .p2 {
+    width: 100%;
+    margin-bottom: 8% !important;
+  }
+
+  .circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mbil-screen {
+    width: 200px;
+  }
+
+  #circle-div {
+    margin-top: 30%;
+  }
+
+  .custom-div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .circle-img {
+    width: 75px;
+  }
+
+  .custom-div2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .numbers {
+    font-size: 60px;
+  }
+
+  .custom-card2 {
+    margin-left: 0%;
+  }
+
+  .foot-hd {
+    text-align: center;
+  }
+
+  .foot-link {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+
+  .logo-img1 {
+    width: 140px;
+  }
+
+  h1 {
+    font-size: 38px !important;
+    font-weight: 800 !important;
+  }
+
+  p {
+    font-size: 20px !important;
+    line-height: 25px;
+  }
+
+  .buttons {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 10px;
+  }
+
+  .btn-div {
+    gap: 2%;
+  }
+
+  .buttons3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 10px;
+  }
+
+  .btn-img {
+    width: 35px;
+  }
+
+  input {
+    font-size: 15px !important;
+    color: #dddbdb !important;
+    padding: 5% 10%;
+    margin-top: 12%;
+  }
+
+  #form-btn {
+    padding-top: 5%;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .p2 {
+    width: 100%;
+    margin-bottom: 8% !important;
+  }
+
+  .circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mbil-screen {
+    width: 200px;
+  }
+
+  #circle-div {
+    margin-top: 30%;
+  }
+
+  .custom-div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .circle-img {
+    width: 75px;
+  }
+
+  .custom-div2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .numbers {
+    font-size: 60px;
+  }
+
+  .custom-card2 {
+    margin-left: 0%;
+  }
+
+  .foot-hd {
+    text-align: center;
+  }
+
+  .foot-link {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:1212px) and (min-width:992px) {
+
+  .logo-img1 {
+    width: 160px;
+  }
+
+  h1 {
+    font-size: 38px !important;
+    font-weight: 800 !important;
+  }
+
+  p {
+    font-size: 20px !important;
+    line-height: 25px;
+  }
+
+  .buttons {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .buttons3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 4%;
+  }
+
+  .btn-div {
+    gap: 7%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-img {
+    width: 40px;
+  }
+
+  input {
+    font-size: 15px !important;
+    color: #dddbdb !important;
+  }
+
+  #form-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .p2 {
+    width: 40%;
+    margin-bottom: 8% !important;
+  }
+
+  .circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mbil-screen {
+    width: 200px;
+  }
+
+  #circle-div {
+    margin-top: 30%;
+  }
+
+  .custom-div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .circle-img {
+    width: 75px;
+  }
+
+  .custom-div2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .numbers {
+    font-size: 60px;
+  }
+
+  .custom-card2 {
+    margin-left: 0%;
+  }
+
+  .foot-hd {
+    text-align: center;
+  }
+
+  .foot-link {
+    text-align: center;
+  }
+
+}
